@@ -6,7 +6,7 @@ import { blogList } from '@/data/Data'
 import { Metadata } from 'next'
 import React from 'react'
 export const metadata: Metadata = {
-  title: 'Talim Blog Details',
+  title: 'Aocss Blog Details',
   description: 'Developed by Azizur Rahman',
 }
 const BlogDetails = ({ params }: { params: { slug: string } }) => {

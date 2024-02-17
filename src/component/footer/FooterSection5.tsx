@@ -1,5 +1,5 @@
 'use client'
-import { useTalimContext } from '@/context/TalimContext';
+import { useAocssContext } from '@/context/AocssContext';
 import { blogList } from '@/data/Data';
 import Link from 'next/link'
 import React from 'react'
@@ -12,7 +12,7 @@ interface FooterProps {
     footerLink?: string;
 }
 const FooterSection5:React.FC<FooterProps> = ({style,lightLogo,darkLogo,foorterDesc,footerSocial,footerLink}) => {
-    const {isDarkTheme} = useTalimContext()
+    const {isDarkTheme} = useAocssContext()
   return (
     <footer className={`tl-footer tl-4-footer ${style}`}>
         <div className="tl-footer-top">
@@ -91,7 +91,7 @@ const FooterSection5:React.FC<FooterProps> = ({style,lightLogo,darkLogo,foorterD
             <div className="container">
                 <div className="row gy-4 align-items-center">
                     <div className="col-12">
-                        <p className="tl-4-copyright-txt m-0 text-center">Copyright © 2023 All Rights Reserved by Talim</p>
+                        <p className="tl-4-copyright-txt m-0 text-center">Copyright © 2023 All Rights Reserved by Aocss</p>
                     </div>
                 </div>
             </div>

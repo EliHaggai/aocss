@@ -6,7 +6,7 @@ import MembershipSlider from '@/component/slider/MembershipSlider'
 import { Metadata } from 'next'
 import React from 'react'
 export const metadata: Metadata = {
-    title: 'Talim About 6',
+    title: 'Aocss About 6',
     description: 'Developed by Azizur Rahman',
   }
 const About6 = () => {

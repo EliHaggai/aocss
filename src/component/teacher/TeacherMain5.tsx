@@ -2,10 +2,10 @@
 import React from 'react'
 import AllTeacherSection5 from './AllTeacherSection5'
 import AllTeacherPagination from './AllTeacherPagination'
-import { useTalimContext } from '@/context/TalimContext'
+import { useAocssContext } from '@/context/AocssContext'
 
 const TeacherMain5 = () => {
-    const {totalTeamPages2} = useTalimContext()
+    const {totalTeamPages2} = useAocssContext()
   return (
     <>
         <AllTeacherSection5/>

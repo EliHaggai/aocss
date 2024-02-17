@@ -1,12 +1,12 @@
 'use client'
-import { useTalimContext } from '@/context/TalimContext'
+import { useAocssContext } from '@/context/AocssContext'
 import React from 'react'
 import { Autoplay, Navigation } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import VideoModal from '../modal/VideoModal'
 
 const BannerSection7 = () => {
-    const {openVideoModal} = useTalimContext()
+    const {openVideoModal} = useAocssContext()
   return (
     <section className="tl-8-banner yellow-clr">
         <Swiper 

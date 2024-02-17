@@ -2,10 +2,10 @@
 import React from 'react'
 import AllBlogSection2 from './AllBlogSection2'
 import AllBlogPagination from './AllBlogPagination'
-import { useTalimContext } from '@/context/TalimContext'
+import { useAocssContext } from '@/context/AocssContext'
 
 const BlogMain2 = () => {
-    const {totalBlogPages2} = useTalimContext()
+    const {totalBlogPages2} = useAocssContext()
   return (
     <>
         <AllBlogSection2/>

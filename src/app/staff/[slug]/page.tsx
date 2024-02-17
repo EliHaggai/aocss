@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import ErrorSection from "@/component/error/ErrorSection";
 
 export const metadata: Metadata = {
-  title: "Talim Staff Details",
+  title: "Aocss Staff Details",
   description: "Developed by Azizur Rahman",
 };
 const StaffDetails = ({ params }: { params: { slug: string } }) => {

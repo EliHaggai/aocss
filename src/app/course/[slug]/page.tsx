@@ -6,7 +6,7 @@ import { courseList } from '@/data/Data'
 import { Metadata } from 'next'
 import React from 'react'
 export const metadata: Metadata = {
-  title: 'Talim Course Details',
+  title: 'Aocss Course Details',
   description: 'Developed by Azizur Rahman',
 }
 const CourseDetails = ({ params }: { params: { slug: string } }) => {

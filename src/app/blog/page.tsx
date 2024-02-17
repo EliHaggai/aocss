@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 import BlogMain1 from '@/component/blog/BlogMain1'
 
 export const metadata: Metadata = {
-  title: 'Talim Blog 1',
+  title: 'Aocss Blog 1',
   description: 'Developed by Azizur Rahman',
 }
 const Blog = () => {

@@ -17,10 +17,10 @@ const FooterSection3:React.FC<FooterProps> = ({style,logo}) => {
                             </Link>
 
                             <ul className="tl-footer-links tl-3-footer-contact-infos">
-                                <li><a href="tel:8812354873654" className="tl-footer-number">(88)123 5487 3654</a></li>
+                                <li><a href="tel:8812354873654" className="tl-footer-number">(256) 775 476 823</a></li>
 
                                 <li>
-                                    <p className="tl-3-footer-address">681 Pompton Ave, Cedar Grove, NJ 5479 United States</p>
+                                    <p className="tl-3-footer-address">Anai Ward, Lira City, Northern Uganda</p>
                                 </li>
                             </ul>
                         </div>
@@ -73,7 +73,7 @@ const FooterSection3:React.FC<FooterProps> = ({style,logo}) => {
             <div className="container">
                 <div className="row gy-4 align-items-center">
                     <div className="col-md-6">
-                        <p className="tl-3-copyright-txt m-0 text-center text-md-start">Copyright © 2023 All Rights Reserved by Talim</p>
+                        <p className="tl-3-copyright-txt m-0 text-center text-md-start">Copyright © 2023 All Rights Reserved by Aocss</p>
                     </div>
 
                     <div className="col-md-6">

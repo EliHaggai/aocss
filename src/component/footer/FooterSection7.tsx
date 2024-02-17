@@ -35,10 +35,10 @@ const FooterSection7:React.FC<FooterProp> = ({logo, style, descStyle, socialStyl
                                     <h5 className="tl-footer-widget-title">Get in touch</h5>
 
                                     <ul className="tl-footer-links tl-footer-contact-infos">
-                                        <li><a href="tel:8812354873654" className="tl-footer-number">(88)123 5487 3654</a></li>
+                                        <li><a href="tel:8812354873654" className="tl-footer-number">(256) 775 476 823</a></li>
 
                                         <li>
-                                            <p className="tl-footer-address">681 Pompton Ave, Cedar Grove, NJ 5479 United States</p>
+                                            <p className="tl-footer-address">Anai Ward, Lira City, Northern Uganda</p>
                                         </li>
 
                                         <li><a href="#" className="tl-6-footer-map-btn">Get Directions <i className="fa-light fa-arrow-right"></i></a></li>
@@ -94,7 +94,7 @@ const FooterSection7:React.FC<FooterProp> = ({logo, style, descStyle, socialStyl
 
         <div className="tl-footer-bottom">
             <div className="container">
-                <p className="tl-copyright-txt m-0 text-center">Copyright &copy; 2023 All Rights Reserved by Talim</p>
+                <p className="tl-copyright-txt m-0 text-center">Copyright &copy; 2023 All Rights Reserved by Aocss</p>
             </div>
         </div>
     </footer>

@@ -2,14 +2,14 @@
 import Link from 'next/link'
 import React from 'react'
 import NavSection from '../navigation/NavSection';
-import { useTalimContext } from '@/context/TalimContext';
+import { useAocssContext } from '@/context/AocssContext';
 interface HeaderProp {
     style: string;
     darkLogo: string;
     lightLogo: string;
 }
 const HeaderSection6:React.FC<HeaderProp> = ({style,darkLogo,lightLogo}) => {
-    const {isHeaderFixed,isDarkTheme,handleSidebarOpen} =useTalimContext()
+    const {isHeaderFixed,isDarkTheme,handleSidebarOpen} =useAocssContext()
   return (
     <div className={`tl-header tl-2-header ${style} ${isHeaderFixed? 'sticky' : ""}`}>
         <div className="container position-relative">

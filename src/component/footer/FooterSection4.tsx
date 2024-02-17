@@ -70,7 +70,7 @@ const FooterSection4:React.FC<FooterProps> = ({style,logo,form}) => {
                             <h5 className="tl-2-footer-widget-title">Get in touch</h5>
 
                             <ul className="tl-footer-links tl-footer-contact-infos">
-                                <li><a href="tel:8812354873654" className="tl-footer-number">(88)123 5487 3654</a></li>
+                                <li><a href="tel:8812354873654" className="tl-footer-number">(256) 775 476 823</a></li>
                                 <li>
                                     <p className="tl-footer-address">681 Pompton Ave,
                                         Cedar Grove,
@@ -84,7 +84,7 @@ const FooterSection4:React.FC<FooterProps> = ({style,logo,form}) => {
         </div>
 
         <div className="tl-2-footer-bottom container">
-            <p>Copyright &copy; 2023 All Rights Reserved by Talim</p>
+            <p>Copyright &copy; 2023 All Rights Reserved by Aocss</p>
         </div>
     </footer>
   )

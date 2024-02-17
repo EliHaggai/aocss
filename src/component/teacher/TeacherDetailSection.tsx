@@ -19,7 +19,7 @@ const TeacherDetailSection:React.FC<TeacherProps> = ({data}) => {
                     <div className="tl-staff-profile-intro">
                         <div>
                             <h4 className="tl-staff-profile-name">{data.name}</h4>
-                            <h6 className="tl-staff-profile-role">{data.position} at Talim</h6>
+                            <h6 className="tl-staff-profile-role">{data.position} at Aocss</h6>
                         </div>
                         <ul className="tl-3-footer-socials tl-staff-profile-socials">
                             <li><a href="#"><i className="fa-brands fa-linkedin-in"></i></a></li>

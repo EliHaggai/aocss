@@ -1,10 +1,10 @@
 'use client'
-import { useTalimContext } from '@/context/TalimContext';
+import { useAocssContext } from '@/context/AocssContext';
 import React from 'react';
 import VideoModal from '../modal/VideoModal';
 
 const VideoSection2 = () => {
-  const {openVideoModal} = useTalimContext()
+  const {openVideoModal} = useAocssContext()
   return (
     <div className="tl-7-vid">
       <div className="container">

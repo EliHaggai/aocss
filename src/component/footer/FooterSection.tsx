@@ -14,7 +14,7 @@ const FooterSection = ({footerStyle} : Props) => {
                             <Link href="/" className="logo tl-footer-widget-title">
                                 <img src="assets/images/logos/logo-1.png" alt="logo"/>
                             </Link>
-                            <p className="tl-1-footer-descr">Nullam nulla eget dui efficitur tempor sit amet quis magna, Suspendisse.</p>
+                            <p className="tl-1-footer-descr">AOCSS is a boy school located in Anai, Lira City. Built on a christian background.</p>
                             <div className="tl-1-footer-socials">
                                 <ul>
                                     <li><a href="#"><i className="fa-brands fa-twitter"></i></a></li>
@@ -70,7 +70,7 @@ const FooterSection = ({footerStyle} : Props) => {
             <div className="tl-footer-bottom kb-10-footer-bottom">
                 <div className="row gy-4 align-items-center">
                     <div className="col-md-6">
-                        <p className="tl-1-copyright-txt m-0">Copyright &copy; 2023 All Rights Reserved by Talim</p>
+                        <p className="tl-1-copyright-txt m-0">Copyright &copy; 2023 All Rights Reserved by Aocss</p>
                     </div>
 
                     <div className="col-md-6">

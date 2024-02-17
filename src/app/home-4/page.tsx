@@ -12,7 +12,7 @@ import SocialSection from '@/component/social/SocialSection';
 import { Metadata } from 'next';
 import React from 'react'
 export const metadata: Metadata = {
-    title: "Talim College",
+    title: "Aocss College",
     description: "Developed by Azizur Rahman",
   };
 const Home4 = () => {

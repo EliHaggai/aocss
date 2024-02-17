@@ -4,7 +4,7 @@ import TeacherMain5 from '@/component/teacher/TeacherMain5'
 import { Metadata } from 'next'
 import React from 'react'
 export const metadata: Metadata = {
-    title: 'Talim Staff 5',
+    title: 'Aocss Staff 5',
     description: 'Developed by Azizur Rahman',
   }
 const Staff5 = () => {

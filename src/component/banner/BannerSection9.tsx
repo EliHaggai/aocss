@@ -1,9 +1,9 @@
 'use client'
-import { useTalimContext } from '@/context/TalimContext'
+import { useAocssContext } from '@/context/AocssContext'
 import React from 'react'
 
 const BannerSection9 = () => {
-    const {openVideoModal} = useTalimContext();
+    const {openVideoModal} = useAocssContext();
   return (
     <section className="tl-banner">
         <div className="container">

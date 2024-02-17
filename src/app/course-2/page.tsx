@@ -4,7 +4,7 @@ import Layout6 from '@/component/layout/Layout6'
 import { Metadata } from 'next'
 import React from 'react'
 export const metadata: Metadata = {
-  title: 'Talim Course Page 2',
+  title: 'Aocss Course Page 2',
   description: 'Developed by Azizur Rahman',
 }
 const Course2 = () => {

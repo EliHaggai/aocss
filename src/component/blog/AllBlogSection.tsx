@@ -1,10 +1,10 @@
 'use client'
-import { useTalimContext } from '@/context/TalimContext'
+import { useAocssContext } from '@/context/AocssContext'
 import Link from 'next/link'
 import React from 'react'
 
 const AllBlogSection = () => {
-    const {displayedBlogs} = useTalimContext()
+    const {displayedBlogs} = useAocssContext()
   return (
     <section className="tl-inner-blogs tl-inner-blogs-1 pt-120 pb-50" data-bg-color="var(--tl-1-bg-coffee)">
         <div className="container">

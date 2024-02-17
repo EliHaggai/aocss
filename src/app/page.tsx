@@ -11,7 +11,7 @@ import TestimonialSlider from '@/component/slider/TestimonialSlider'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Talim Online Education (LMS)',
+  title: 'Aocss Online Education (LMS)',
   description: 'Developed by Azizur Rahman',
 }
 export default function Home() {

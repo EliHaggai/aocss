@@ -1,5 +1,5 @@
 "use client";
-import { useTalimContext } from "@/context/TalimContext";
+import { useAocssContext } from "@/context/AocssContext";
 import React from "react";
 interface PaginationProps {
   totalPage: number;
@@ -7,7 +7,7 @@ interface PaginationProps {
 }
 
 const CoursePaginationSection: React.FC<PaginationProps> = ({ totalPage,style }) => {
-    const { handleCoursePageChange, currentCoursePage } = useTalimContext();
+    const { handleCoursePageChange, currentCoursePage } = useAocssContext();
   return (
     <div className="container">
         <div className={style}>

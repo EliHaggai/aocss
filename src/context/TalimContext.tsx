@@ -3,7 +3,7 @@
 import { blogList, courseList, eventList, teacherList } from "@/data/Data";
 import { ReactNode, createContext, useContext, useEffect, useState } from "react"
 
-interface TalimContextData {
+interface AocssContextData {
     isDarkTheme: boolean;
     toggleTheme: () => void;
     handleBlogPageChange: (newPage:number) => void;
@@ -105,13 +105,13 @@ type CourseItem = {
     duration?: number;
 }
 
-const TalimContext = createContext<TalimContextData | undefined>(undefined);
+const AocssContext = createContext<AocssContextData | undefined>(undefined);
 
-interface TalimProviderProps {
+interface AocssProviderProps {
     children: ReactNode;
 }
 
-export const TalimProvider: React.FC<TalimProviderProps> = ({ children }) => {
+export const AocssProvider: React.FC<AocssProviderProps> = ({ children }) => {
     // Theme Selection
     const [isDarkTheme, setIsDarkTheme] = useState(false);
 
@@ -297,7 +297,7 @@ const handleSidebarClose = () => {
     setIsSidebarOpen(false);
 }
 
-    const contextValue: TalimContextData = {
+    const contextValue: AocssContextData = {
         handleBlogPageChange,
         currentBlogPage,
         totalBlogPages,
@@ -346,16 +346,16 @@ const handleSidebarClose = () => {
         handleSidebarOpen,
     }
     return (
-        <TalimContext.Provider value={contextValue}>
+        <AocssContext.Provider value={contextValue}>
             {children}
-        </TalimContext.Provider>
+        </AocssContext.Provider>
     )
 }
 
-export const useTalimContext = () => {
-    const context = useContext(TalimContext);
+export const useAocssContext = () => {
+    const context = useContext(AocssContext);
     if(!context) {
-        throw new Error("useTalimContext must be used within TalimProvider");
+        throw new Error("useAocssContext must be used within AocssProvider");
     }
     return context;
 }

@@ -5,7 +5,7 @@ import Layout3 from '@/component/layout/Layout3'
 import { Metadata } from 'next'
 import React from 'react'
 export const metadata: Metadata = {
-    title: 'Talim About 3',
+    title: 'Aocss About 3',
     description: 'Developed by Azizur Rahman',
   }
 const About3 = () => {

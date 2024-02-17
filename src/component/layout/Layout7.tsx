@@ -2,14 +2,14 @@
 import React from 'react'
 import HeaderSection7 from '../header/HeaderSection7';
 import FooterSection5 from '../footer/FooterSection5';
-import { useTalimContext } from '@/context/TalimContext';
+import { useAocssContext } from '@/context/AocssContext';
 
 
 interface LayoutProps {
     children: any;
 }
 const Layout7:React.FC<LayoutProps> = ({children}) => {
-  const {isDarkTheme} = useTalimContext()
+  const {isDarkTheme} = useAocssContext()
   return (
     <div className={`tl-inner-courses-body ${isDarkTheme ? 'dark_mode':''}`}>
       <HeaderSection7 style='tl-4-header-inner' logo="assets/images/logos/logo.png"/>

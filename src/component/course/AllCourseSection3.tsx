@@ -1,10 +1,10 @@
 'use client';
-import { useTalimContext } from '@/context/TalimContext';
+import { useAocssContext } from '@/context/AocssContext';
 import Link from 'next/link';
 import React from 'react'
 
 const AllCourseSection3 = () => {
-    const {displayedCourses3} = useTalimContext()
+    const {displayedCourses3} = useAocssContext()
   return (
     <section className="tl-inner-courses pb-60 pt-130">
         <div className="container">

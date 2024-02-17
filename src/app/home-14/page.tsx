@@ -13,7 +13,7 @@ import TestimonialSection4 from '@/component/testimonial/TestimonialSection4';
 import { Metadata } from 'next';
 import React from 'react'
 export const metadata: Metadata = {
-    title: "Talim Language Club",
+    title: "Aocss Language Club",
     description: "Developed by Azizur Rahman",
   };
 const Home14 = () => {

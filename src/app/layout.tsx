@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import "flag-icons/css/flag-icons.min.css";
 import '../../public/assets/css/style.css';
 import { ToastContainer } from 'react-toastify';
-import { TalimProvider } from '@/context/TalimContext';
+import { AocssProvider } from '@/context/AocssContext';
 import ThemeBtnSection from '@/component/theme-btn/ThemeBtnSection';
 import SidebarSection from '@/component/sidebar/SidebarSection';
 export default function RootLayout({
@@ -21,14 +21,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <TalimProvider>
+      <AocssProvider>
         <body>
           <ThemeBtnSection/>
           <SidebarSection/>
           {children}
           <ToastContainer/>
         </body>
-      </TalimProvider>
+      </AocssProvider>
     </html>
   )
 }

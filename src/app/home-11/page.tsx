@@ -9,7 +9,7 @@ import TeacherSection4 from '@/component/teacher/TeacherSection4';
 import { Metadata } from 'next';
 import React from 'react'
 export const metadata: Metadata = {
-    title: "Talim Magazine 2",
+    title: "Aocss Magazine 2",
     description: "Developed by Azizur Rahman",
   };  
 

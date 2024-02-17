@@ -4,7 +4,7 @@ import Layout2 from '@/component/layout/Layout2'
 import { Metadata } from 'next'
 import React from 'react'
 export const metadata: Metadata = {
-    title: 'Talim Contact Page 1',
+    title: 'Aocss Contact Page 1',
     description: 'Developed by Azizur Rahman',
   }
 const Contact = () => {

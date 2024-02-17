@@ -14,7 +14,7 @@ const CourseInstructorDetails = () => {
           <h5 className="tl-course-details-instructor-name">
             <a href="staff-profile.html">Brian Cumin</a>
           </h5>
-          <h6 className="tl-staff-profile-role">Sr. Instructor at Talim</h6>
+          <h6 className="tl-staff-profile-role">Sr. Instructor at Aocss</h6>
           <ul className="tl-course-details-instructor-socials">
             <li>
               <a href="#">

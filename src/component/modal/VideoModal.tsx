@@ -1,10 +1,10 @@
 'use client'
-import { useTalimContext } from '@/context/TalimContext'
+import { useAocssContext } from '@/context/AocssContext'
 import React from 'react'
 import { Modal } from 'react-bootstrap'
 
 const VideoModal = () => {
-    const {isVideoModalOpen,closeVideoModal,videoUrl} = useTalimContext()
+    const {isVideoModalOpen,closeVideoModal,videoUrl} = useAocssContext()
   return (
     <Modal 
     id="video-overlay" 

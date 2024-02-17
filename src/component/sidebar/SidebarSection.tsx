@@ -1,12 +1,12 @@
 'use client'
 import React from 'react';
-import { useTalimContext } from '@/context/TalimContext';
+import { useAocssContext } from '@/context/AocssContext';
 import { Tab, Nav } from "react-bootstrap";
 import MobileNavSection from '../navigation/MobileNavSection';
 import Link from 'next/link';
 
 const SidebarSection = () => {
-  const { isSidebarOpen, handleSidebarClose } = useTalimContext();
+  const { isSidebarOpen, handleSidebarClose } = useAocssContext();
 
   return (
     <>

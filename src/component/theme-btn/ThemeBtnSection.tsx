@@ -1,9 +1,9 @@
 'use client'
-import { useTalimContext } from '@/context/TalimContext';
+import { useAocssContext } from '@/context/AocssContext';
 import React from 'react';
 
 const ThemeBtnSection = () => {
-  const {isDarkTheme,toggleTheme} = useTalimContext()
+  const {isDarkTheme,toggleTheme} = useAocssContext()
 
   return (
     <div

@@ -1,11 +1,11 @@
 'use client'
-import { useTalimContext } from '@/context/TalimContext'
+import { useAocssContext } from '@/context/AocssContext'
 import React from 'react'
 import AllCourseSection4 from './AllCourseSection4'
 import CoursePaginationSection from './CoursePaginationSection'
 
 const CourseMainSection4 = () => {
-    const {totalCoursePages4} = useTalimContext()
+    const {totalCoursePages4} = useAocssContext()
   return (
     <>
         <AllCourseSection4/>

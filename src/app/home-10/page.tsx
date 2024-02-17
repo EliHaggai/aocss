@@ -11,7 +11,7 @@ import TestimonialSection2 from '@/component/testimonial/TestimonialSection2';
 import { Metadata } from 'next';
 import React from 'react'
 export const metadata: Metadata = {
-    title: "Talim University 2",
+    title: "Aocss University 2",
     description: "Developed by Azizur Rahman",
   };  
 const Home10 = () => {

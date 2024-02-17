@@ -1,9 +1,9 @@
-import { useTalimContext } from '@/context/TalimContext'
+import { useAocssContext } from '@/context/AocssContext'
 import Link from 'next/link'
 import React from 'react'
 
 const AllBlogSection7 = () => {
-    const {displayedBlogs4} = useTalimContext()
+    const {displayedBlogs4} = useAocssContext()
   return (
     <section className="tl-inner-blogs pt-120 pb-50">
         <div className="container">

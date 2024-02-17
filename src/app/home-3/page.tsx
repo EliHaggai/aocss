@@ -11,7 +11,7 @@ import TeacherSection2 from '@/component/teacher/TeacherSection2';
 import { Metadata } from 'next';
 import React from 'react'
 export const metadata: Metadata = {
-    title: "Talim School",
+    title: "Aocss School",
     description: "Developed by Azizur Rahman",
   };
 const Home3 = () => {

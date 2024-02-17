@@ -1,5 +1,5 @@
 'use client'
-import { useTalimContext } from '@/context/TalimContext';
+import { useAocssContext } from '@/context/AocssContext';
 import Link from 'next/link'
 import React from 'react'
 import NavSection from '../navigation/NavSection';
@@ -10,7 +10,7 @@ type Props = {
     btnStyle?: string;
 }
 const HeaderSection10 = ({lightLogo, darkLogo,style,btnStyle} : Props) => {
-    const { isDarkTheme, handleSidebarOpen, isHeaderFixed } = useTalimContext();
+    const { isDarkTheme, handleSidebarOpen, isHeaderFixed } = useAocssContext();
   return (
     <div className={`tl-header tl-13-header ${style} ${isHeaderFixed ? 'sticky' : ''}`}>
     <div className="container">

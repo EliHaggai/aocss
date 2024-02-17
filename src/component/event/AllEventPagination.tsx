@@ -1,12 +1,12 @@
 'use client'
-import { useTalimContext } from "@/context/TalimContext";
+import { useAocssContext } from "@/context/AocssContext";
 import React from "react";
 interface PaginationProps {
   totalPage: number;
 }
 
 const AllEventPagination: React.FC<PaginationProps> = ({totalPage}) => {
-    const { handleEventPageChange, currentEventPage } = useTalimContext();
+    const { handleEventPageChange, currentEventPage } = useAocssContext();
   return (
     <div className="container">
       <div className="tl-pagination tl-pagination-2 pb-115">

@@ -1,10 +1,10 @@
 'use client'
-import { useTalimContext } from "@/context/TalimContext";
+import { useAocssContext } from "@/context/AocssContext";
 import Link from "next/link";
 import React from "react";
 
 const AllEventSection2 = () => {
-  const {displayedEvents2} = useTalimContext()
+  const {displayedEvents2} = useAocssContext()
   return (
     <section className="tl-7-events tl-7-events-inner tl-7-section-spacing pb-50">
       <div className="container">

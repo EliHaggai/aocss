@@ -1,12 +1,12 @@
 "use client";
-import { useTalimContext } from "@/context/TalimContext";
+import { useAocssContext } from "@/context/AocssContext";
 import React from "react";
 interface PaginationProps {
   totalPage: number;
 }
 
 const AllTeacherPagination:React.FC<PaginationProps> = ({ totalPage }) => {
-    const { handleTeamPageChange, currentTeamPage } = useTalimContext();
+    const { handleTeamPageChange, currentTeamPage } = useAocssContext();
 
   return (
     <div className="container">

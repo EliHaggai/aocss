@@ -12,7 +12,7 @@ import VideoSection from '@/component/video/VideoSection';
 import { Metadata } from 'next';
 import React from 'react'
 export const metadata: Metadata = {
-    title: "Talim Magazine",
+    title: "Aocss Magazine",
     description: "Developed by Azizur Rahman",
   };
 

@@ -2,10 +2,10 @@
 import React from 'react'
 import AllEventSection from './AllEventSection'
 import AllEventPagination from './AllEventPagination'
-import { useTalimContext } from '@/context/TalimContext'
+import { useAocssContext } from '@/context/AocssContext'
 
 const EventMainSection = () => {
-    const {totalEventPages} = useTalimContext()
+    const {totalEventPages} = useAocssContext()
   return (
     <>
         <AllEventSection/>

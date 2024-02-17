@@ -7,7 +7,7 @@ import { eventList } from '@/data/Data'
 import ErrorSection from '@/component/error/ErrorSection'
 
 export const metadata: Metadata = {
-  title: 'Talim Event Details',
+  title: 'Aocss Event Details',
   description: 'Developed by Azizur Rahman',
 }
 const EventDetails = ({ params }: { params: { slug: string } }) => {

@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React from "react";
 import NavSection from "../navigation/NavSection";
-import { useTalimContext } from "@/context/TalimContext";
+import { useAocssContext } from "@/context/AocssContext";
 interface HeaderProps {
   style: string;
   lightLogo: string;
@@ -19,7 +19,7 @@ const HeaderSection8: React.FC<HeaderProps> = ({
   btnStyle,
   loginBtn,
 }) => {
-  const { isHeaderFixed, isDarkTheme, handleSidebarOpen } = useTalimContext();
+  const { isHeaderFixed, isDarkTheme, handleSidebarOpen } = useAocssContext();
   return (
     <div
       className={`tl-header ${headerStyle} ${

@@ -4,7 +4,7 @@ import Layout5 from '@/component/layout/Layout5';
 import { Metadata } from 'next';
 import React from 'react'
 export const metadata: Metadata = {
-    title: "Talim Register Page",
+    title: "Aocss Register Page",
     description: "Developed by Azizur Rahman",
   }; 
 const Register = () => {

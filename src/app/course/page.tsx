@@ -5,7 +5,7 @@ import Layout from '@/component/layout/Layout'
 import CourseMainSection from '@/component/course/CourseMainSection'
 
 export const metadata: Metadata = {
-  title: 'Talim Course Page 1',
+  title: 'Aocss Course Page 1',
   description: 'Developed by Azizur Rahman',
 }
 const Course = () => {

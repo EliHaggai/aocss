@@ -2,13 +2,13 @@
 import React from 'react'
 import NavSection from '../navigation/NavSection';
 import Link from 'next/link';
-import { useTalimContext } from '@/context/TalimContext';
+import { useAocssContext } from '@/context/AocssContext';
 interface HeaderProps {
     style: string;
     logo: string;
 }
 const HeaderSection5:React.FC<HeaderProps> = ({style, logo}) => {
-    const {isHeaderFixed,handleSidebarOpen} = useTalimContext()
+    const {isHeaderFixed,handleSidebarOpen} = useAocssContext()
   return (
     <div className={`tl-8-header ${style}`}>
     <div className="tl-8-top-header">
@@ -16,9 +16,9 @@ const HeaderSection5:React.FC<HeaderProps> = ({style, logo}) => {
             <div className="row justify-content-center">
                 <div className="col-lg-8">
                     <ul className="tl-8-top-header-contacts">
-                        <li><a href="tel:12356877787"><i className="fa-solid fa-phone"></i> (88) 123 568 777 87 </a></li>
-                        <li><a href="mailto:info@xyz-text.com"><i className="fa-solid fa-envelope"></i> info@xyz-text.com</a></li>
-                        <li><i className="fa-solid fa-location-dot"></i> New Jersey 07052, USA</li>
+                        <li><a href="tel:12356877787"><i className="fa-solid fa-phone"></i> (+257) 775 476 823 </a></li>
+                        <li><a href="mailto:info@xyz-text.com"><i className="fa-solid fa-envelope"></i> info@archbishoporombiss.com</a></li>
+                        <li><i className="fa-solid fa-location-dot"></i> Anai, Lira City - Uganda</li>
                     </ul>
                 </div>
 
@@ -64,7 +64,7 @@ const HeaderSection5:React.FC<HeaderProps> = ({style, logo}) => {
 
                 <div className="col-2 d-lg-block d-none">
                     <div className="tl-header-actions d-flex justify-content-end">
-                        <Link href="/register" className="tl-def-btn">Register Now!</Link>
+                        <Link href="/register" className="tl-def-btn">Apply Now!</Link>
                     </div>
                 </div>
             </div>

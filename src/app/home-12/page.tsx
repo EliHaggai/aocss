@@ -12,7 +12,7 @@ import TestimonialSection3 from '@/component/testimonial/TestimonialSection3';
 import { Metadata } from 'next';
 import React from 'react'
 export const metadata: Metadata = {
-    title: "Talim Live Class",
+    title: "Aocss Live Class",
     description: "Developed by Azizur Rahman",
   };  
 const Home12 = () => {

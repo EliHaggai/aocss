@@ -14,7 +14,7 @@ import { testimonialList3 } from '@/data/Data';
 import { Metadata } from 'next';
 import React from 'react'
 export const metadata: Metadata = {
-    title: "Talim Music School",
+    title: "Aocss Music School",
     description: "Developed by Azizur Rahman",
   };  
 const Home9 = () => {

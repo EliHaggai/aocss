@@ -14,7 +14,7 @@ import TestimonialSlider7 from '@/component/slider/TestimonialSlider7';
 import { Metadata } from 'next';
 import React from 'react'
 export const metadata: Metadata = {
-    title: "Talim Online Course",
+    title: "Aocss Online Course",
     description: "Developed by Azizur Rahman",
   };
 const Home13 = () => {

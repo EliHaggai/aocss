@@ -4,7 +4,7 @@ import Layout7 from '@/component/layout/Layout7'
 import { Metadata } from 'next'
 import React from 'react'
 export const metadata: Metadata = {
-    title: 'Talim Blog 4',
+    title: 'Aocss Blog 4',
     description: 'Developed by Azizur Rahman',
   }
 const Blog4 = () => {

@@ -2,10 +2,10 @@
 import React from 'react'
 import AllCourseSection3 from './AllCourseSection3'
 import CoursePaginationSection from './CoursePaginationSection'
-import { useTalimContext } from '@/context/TalimContext'
+import { useAocssContext } from '@/context/AocssContext'
 
 const CourseMainSection3 = () => {
-    const {totalCoursePages3} = useTalimContext()
+    const {totalCoursePages3} = useAocssContext()
   return (
     <>
         <AllCourseSection3/>

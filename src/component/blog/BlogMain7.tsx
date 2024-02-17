@@ -1,11 +1,11 @@
 'use client'
-import { useTalimContext } from '@/context/TalimContext'
+import { useAocssContext } from '@/context/AocssContext'
 import React from 'react'
 import AllBlogSection7 from './AllBlogSection7'
 import AllBlogPagination from './AllBlogPagination'
 
 const BlogMain7 = () => {
-    const {totalBlogPages4} = useTalimContext()
+    const {totalBlogPages4} = useAocssContext()
   return (
     <>
         <AllBlogSection7/>

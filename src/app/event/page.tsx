@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 import EventMainSection from '@/component/event/EventMainSection'
 
 export const metadata: Metadata = {
-  title: 'Talim Event 1',
+  title: 'Aocss Event 1',
   description: 'Developed by Azizur Rahman',
 }
 const Event = () => {

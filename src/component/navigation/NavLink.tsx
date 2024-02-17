@@ -1,5 +1,5 @@
 'use client'
-import { useTalimContext } from '@/context/TalimContext';
+import { useAocssContext } from '@/context/AocssContext';
 import Link from 'next/link';
 import { useRouter,usePathname } from 'next/navigation';
 
@@ -9,7 +9,7 @@ interface NavLinkProps {
 }
 
 const NavLink: React.FC<NavLinkProps> = ({ href, children }) => {
-  const {handleSidebarClose} = useTalimContext()
+  const {handleSidebarClose} = useAocssContext()
     const router = useRouter();
   const pathname = usePathname()
   const isActive = pathname === href;

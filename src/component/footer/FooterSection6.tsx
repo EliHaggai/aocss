@@ -1,5 +1,5 @@
 'use client'
-import { useTalimContext } from '@/context/TalimContext';
+import { useAocssContext } from '@/context/AocssContext';
 import Link from 'next/link'
 import React from 'react'
 interface FooterProps {
@@ -7,7 +7,7 @@ interface FooterProps {
     darkLogo: string;
 }
 const FooterSection6:React.FC<FooterProps> = ({lightLogo,darkLogo}) => {
-    const {isDarkTheme} = useTalimContext()
+    const {isDarkTheme} = useAocssContext()
   return (
     <footer className="tl-footer tl-5-footer">
         <div className="tl-footer-top">
@@ -75,10 +75,10 @@ const FooterSection6:React.FC<FooterProps> = ({lightLogo,darkLogo}) => {
                             <h5 className="tl-footer-widget-title tl-5-footer-widget-title">Get in touch</h5>
 
                             <ul className="tl-footer-links tl-5-footer-links tl-footer-contact-infos">
-                                <li><a href="tel:8812354873654" className="tl-footer-number">(88)123 5487 3654</a></li>
+                                <li><a href="tel:8812354873654" className="tl-footer-number">(256) 775 476 823</a></li>
 
                                 <li>
-                                    <p className="tl-5-footer-address">681 Pompton Ave, Cedar Grove, NJ 5479 United States</p>
+                                    <p className="tl-5-footer-address">Anai Ward, Lira City, Northern Uganda</p>
                                 </li>
 
                                 <li>
@@ -111,7 +111,7 @@ const FooterSection6:React.FC<FooterProps> = ({lightLogo,darkLogo}) => {
 
         <div className="tl-footer-bottom tl-5-footer-bottom">
             <div className="container">
-                <p className="tl-5-copyright-txt m-0 text-center">Copyright © 2023 All Rights Reserved by Talim</p>
+                <p className="tl-5-copyright-txt m-0 text-center">Copyright © 2023 All Rights Reserved by Aocss</p>
             </div>
         </div>
     </footer>

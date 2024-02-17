@@ -2,9 +2,9 @@
 import Link from "next/link";
 import React from "react";
 import NavSection from "../navigation/NavSection";
-import { useTalimContext } from "@/context/TalimContext";
+import { useAocssContext } from "@/context/AocssContext";
 const BottomHeaderSection = () => {
-  const {isHeaderFixed,handleSidebarOpen} = useTalimContext()
+  const {isHeaderFixed,handleSidebarOpen} = useAocssContext()
   return (
     <div
       className={`tl-1-header-bottom ${isHeaderFixed? 'sticky':''} green-clr pt-20 pb-20`}
@@ -40,10 +40,7 @@ const BottomHeaderSection = () => {
           <div className="col-3 d-lg-block d-none">
             <div className="tl-header-actions kb-16-header-actions d-flex justify-content-end align-items-center">
               <Link href="/login">
-                <i className="fa-regular fa-user"></i> Sign Up
-              </Link>
-              <Link href="/register" className="tl-def-btn tl-1-header-btn">
-                Free Trial
+                <i className="tl-def-btn tl-1-header-btn"></i> Login
               </Link>
             </div>
           </div>
